@@ -1,0 +1,7 @@
+.CyclesSection {
+  background-color: #eee;
+  border-radius: 0.8em;
+  margin: 0.8em;
+  display: grid;
+  grid-template-columns: 10em 10em;
+}

@@ -1,15 +1,23 @@
 .NumberPicker {
-  background-color: lightgray;
-  border-radius: 0.6em;
-  height: 10em;
-  margin: 0.6em;
+  display: grid;
+  grid-template-columns: auto 30px;
 }
 
 .Title {
   color: darkslategray;
-  text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  padding-left: 1em;
   padding-top: 0.5em;
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+.ButtonsContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+}
+
+.Button {
+  width: 100%;
 }

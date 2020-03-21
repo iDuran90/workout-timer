@@ -1,0 +1,8 @@
+.CyclesPicker {
+  display: grid;
+  grid-template-columns: 10em 10.5em;
+}
+
+.CyclesPickerButton {
+  padding: 0.5em;
+}
