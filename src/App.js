@@ -1,16 +1,14 @@
 import React from 'react';
+import CyclesPicker from './Components/CyclesPicker/CyclesPicker';
 import NumberPicker from './Components/NumberPicker/NumberPicker';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <NumberPicker title="Cycles" />
-      <NumberPicker title="Sets" />
-      <NumberPicker title="Exercises" />
+      <CyclesPicker title="Cycles" />
 
-      <NumberPicker title="Workout Time" />
-      <NumberPicker title="Rest Time (Between Exercises)" />
+      <NumberPicker title="Cycles" />
     </div>
   );
 }

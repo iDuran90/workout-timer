@@ -4,7 +4,7 @@ import './NumberPicker.css';
 function NumberPicker({ title }) {
   return (
     <div className="NumberPicker">
-      <div >{title}</div>
+      <div className="Title">{title}</div>
       <div></div>
     </div>
   );
